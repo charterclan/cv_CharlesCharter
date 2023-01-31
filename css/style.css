@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CBEDD5;
+    text-align: center;
+}
+a {
+    color: #439A97;
+    text-decoration: none;
+    font-weight: bold;
+}
+hr {
+    border: solid 3px;
+    border-color: #439A97;
+    border-radius: 5px;
+    width: 35%;
+
+}
+ul {
+    list-style: none;
+}
+dt {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+
+/******** Top Banner Divs ********/
+.Top {
+    background-color: #439A97;
+    color: #CBEDD5;
+    padding: 10%;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    font-size: 110%;
+}
+.Top img {
+    position: absolute;
+    display: block;
+    padding: 10%;
+    top: 0;
+}
+
+
+
+
+/********* Middle Divs **********/
+.Middle {
+    background-color: #CBEDD5;
+    text-align: center;
+}
+a.Button {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 15px;
+    background-color: #CBEDD5;
+    border: solid 5px;
+}
+a.Button:hover {
+    background-color: #439A97;
+    color: #CBEDD5;
+    border-color: #439A97;
+    font-weight: bold;
+}
+.multi_column {
+    display: inline-block;
+    clear: both;
+}
+.Languages {
+    width: 150px;
+    float: right;
+}
+.Leadership {
+    width: 50%;
+    text-align: right;
+}
+.Skills {
+    padding-top: 43px;
+    float: right;
+    text-align: left;
+    width: 250px;
+}
+.Skills dt {
+    float: right;
+    clear: left;
+    padding-right: 10px;
+    width: 175px;
+}
+
+
+/********* Bottom Divs *********/
+.Bottom {
+    background-color: #97DECE;
+    padding: 2%;
+    text-align: center;
+}
+#Bottom_Break {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    border-color: #439A97;
+}
+
+
+
+
+/*********** Images ************/
+#Image_Music {
+    width: 8%;
+    left: 0;
+}
+
+#Image_Brackets {
+    width: 9%;
+    right: 0;
+}
+#Image_Me {
+    border: 5px solid #439A97;
+    border-radius: 15px;
+    margin: 10px;
+    width: 25%;
+}
+#Image_Java {
+    width: 125px;
+}
+#Image_Lifeguard {
+    height: 150px;
+    float: right;
+    padding-top: 20px;
+}
+#Image_Mixing {
+    height: 110px;
+    padding: 60px 40px 60px 0;
+}
+
+
+/******* Contact Styles *******/
+.Card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+    display: inline-block;
+    margin: 20px;
+    background-color: #439A97;
+    color: #CBEDD5;
+    font-weight: bold;
+    border: 5px solid #62B6B7;
+    border-radius: 15px;
+}
+.Card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+form {
+    padding: 20px;
+}
+input, textarea {
+    background-color: #CBEDD5;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #439A97;
+    border: 5px solid #439A97;
+    border-radius: 9px;
+    padding: 5px;
+}
